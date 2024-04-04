@@ -1,0 +1,12 @@
+{
+  "policies": [
+    {
+      "handler": {
+        "export": "default",
+        "module": "$import(./modules/move-to-context)"
+      },
+      "name": "custom-code-inbound",
+      "policyType": "custom-code-inbound"
+    }
+  ]
+}
